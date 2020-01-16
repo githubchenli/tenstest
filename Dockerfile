@@ -3,7 +3,7 @@ FROM java:8
 
 WORKDIR /app
 
-ADD tenstest-1.0-SNAPSHOT.jar /app
+ADD /app/tenstest-1.0-SNAPSHOT.jar /app
 
 
 EXPOSE 9001
